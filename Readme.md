@@ -21,7 +21,7 @@ Welcome to the backend repository for the **Healthcare Translation App**. This a
 
 1. Clone the repository:
      ```bash
-     git clone https://github.com/RijinRaju/healthcare-translation-app-backend.git
+     git clone https://github.com/RijinRaju/healthcare-translation-backend.git
      cd healthcare-translation-app-backend
      ```
 
@@ -63,4 +63,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions or support, please contact:
 - **Email**: support@healthcaretranslator.com
-- **GitHub Issues**: [Issue Tracker](https://github.com/RijinRaju/healthcare-translation-app/issues)
+- **GitHub Issues**: [Issue Tracker](https://github.com/RijinRaju/healthcare-translation-backend/issues)
