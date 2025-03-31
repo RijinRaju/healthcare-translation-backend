@@ -27,15 +27,15 @@ Welcome to the backend repository for the **Healthcare Translation App**. This a
 
 2. Install dependencies:
      ```bash
-     npm install
+     pip install -r requirements.txt
      ```
 
 3. Set up environment variables:
-     Create a `.env` file in the root directory and add the required variables.
+     Create a `.env` file in the root directory and add the required variables for deepgram and claude.
 
 4. Start the server:
      ```bash
-     npm start
+     uvicorn main:app --reload
      ```
 
 ## API Endpoints
@@ -62,5 +62,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For questions or support, please contact:
-- **Email**: support@healthcaretranslator.com
+- **Email**: rijinraju856@gmail.com
 - **GitHub Issues**: [Issue Tracker](https://github.com/RijinRaju/healthcare-translation-backend/issues)
