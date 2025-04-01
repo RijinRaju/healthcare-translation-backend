@@ -25,7 +25,8 @@ if not DEEPGRAM_API_KEY or not CLAUDE_API_KEY:
 # CORS setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Restrict in production
+    allow_origins=[ "https://healthcare-translation-frontend-sigma.vercel.app/",
+                   "http://localhost:3000"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
